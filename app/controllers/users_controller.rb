@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   configure do
 
        set :views, 'app/views'
-end	    end
+	    end
 
      get '/signup' do
       #binding.pry
